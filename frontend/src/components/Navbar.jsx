@@ -6,7 +6,8 @@ const Navbar = () => {
     <nav style={{marginLeft:"100px" , display:"flex", gap:"50px",marginTop:"-350px"}}>
   
         <>
-          <Link to="/">Book</Link>
+          <Link to="/">Home</Link>
+          <Link to="/book">Book</Link>
           <Link to="/login">Login</Link>
           <Link to="/register">Register</Link>
         </>

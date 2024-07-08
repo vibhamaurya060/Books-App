@@ -5,6 +5,7 @@ import Login from './components/Auth/Login';
 import Register from './components/Auth/Register';
 import AuthService from './services/AuthService';
 import Book from './components/Book/Book';
+import Home from './components/Book/Home';
 
 
 const App = () => {
@@ -47,8 +48,8 @@ const App = () => {
       <Routes>
         <Route path="/login" element={<Login onLogin={login} />} />
         <Route path="/register" element={<Register />} />
-
-          <Route path="/" element={<Book />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/book" element={<Book />} />
           
       </Routes>
     </Router>
